@@ -109,7 +109,7 @@
             }
             formData.action = "changePwd";
             $.ajax({
-                url: "/Default.aspx",
+                url: "Default.aspx",
                 data: formData,
                 dataType: "json",
                 type: "post",

@@ -214,7 +214,7 @@
                 shade: [0.1, '#fff'] //0.1透明度的白色背景
             });
             $.ajax({
-                url: "/StudentInfo.aspx",
+                url: "StudentInfo.aspx",
                 data: formData,
                 dataType: "json",
                 type: "post",
@@ -239,7 +239,7 @@
 
         var tableIns = table.render({
             elem: '#test'
-            , url: '/StudentInfo.aspx'
+            , url: 'StudentInfo.aspx'
             , where: {
                 action: "queryStudentInfo"
             }
@@ -308,7 +308,7 @@
                 shade: [0.1, '#fff'] //0.1透明度的白色背景
             });
             $.ajax({
-                url: "/StudentInfo.aspx",
+                url: "StudentInfo.aspx",
                 data: { action: "delSelectedData", data: JSON.stringify(data) },
                 dataType: "json",
                 type: "post",

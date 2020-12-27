@@ -80,7 +80,7 @@
                         layer.close(index);
                         if (res.code === 0) { //成功
                             layer.msg("登录成功");
-                            window.location.href = "/Default.aspx";
+                            window.location.href = "Default.aspx";
                         } else {
                             layer.msg("登录失败\r\n错误原因：" + res.msg);
                         }
